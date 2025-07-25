@@ -1,0 +1,41 @@
+Of course. As a civil engineer specializing in quantity takeoff and reinforced concrete, I have performed a detailed analysis based on the provided section view (CORTE A-A), the slab details, and the technical specifications.
+
+Below is the comprehensive quantity takeoff for the reinforcing steel in the shear walls (placas), organized by floor.
+
+---
+
+### **A. Criterios de Cálculo y Asunciones (Calculation Criteria and Assumptions)**
+
+1.  **Alturas de Entrepiso (Inter-story Heights):** Calculated based on the difference between Finished Floor Levels (NPT) from drawing A-9.
+    *   Sótano: NPT -4.10 a NPT -1.40 = **2.70 m**
+    *   1er Piso: NPT -1.40 a NPT +1.50 = **2.90 m**
+    *   2do, 3ro, 4to Pisos: Altura constante = **2.80 m**
+    *   5to Piso (Azotea): NPT +9.90 a NPT +12.70 = **2.80 m**
+    *   Parapeto Azotea: NPT +12.70 a NTT +15.30 = **2.60 m**
+2.  **Acero Vertical (Vertical Steel):**
+    *   **Longitud de Anclaje (Anchorage Length):** Se asume un anclaje inicial en la cimentación de **0.70 m** para barras de Ø 5/8".
+    *   **Longitud de Empalme (Splice Length - Le):** Basado en el cuadro de especificaciones: **0.70 m** para Ø 5/8" y **0.55 m** para Ø 1/2". Se asume un empalme por cada 9.0 m de longitud de barra vertical.
+    *   **Cálculo de Longitud:** `Longitud por barra = Altura total de la placa + Anclaje inicial + (N° de empalmes * Le)`.
+3.  **Estribos (Stirrups):**
+    *   **Diámetro y Espaciamiento:** Se utiliza el detalle de confinamiento especificado: **Ø 3/8"**, con espaciamiento vertical de `1@0.05, 4@0.10, Resto @0.25`. La zona de confinamiento (extremos superior e inferior de cada nivel) se asume de **0.50 m**.
+    *   **Cantidad por Nivel (H=2.8m):** 5 estribos en la zona inferior (0.5m) + 5 en la zona superior (0.5m) + 9 en la zona central (1.8m) = **19 estribos/nivel**.
+    *   **Longitud de Estribo:** Calculada según la geometría del elemento de borde, restando el recubrimiento (3 cm) y sumando los ganchos de anclaje (2 x 8 cm = 16 cm).
+4.  **Acero Horizontal (Horizontal Steel):**
+    *   **Detalle:** Malla de Ø 3/8" @ 0.35 m en ambas caras del alma de la placa.
+    *   **Longitud por Barra:** `Largo de la placa - 2 * Recubrimiento (3 cm)`.
+    *   **Cantidad por Nivel (H=2.8m):** `(2.80 m / 0.35 m) + 1 = 9 barras`. Se multiplica por 2 por ser doble malla.
+
+---
+
+### **B. Tabla de Metrados de Acero para Placas (Steel Quantity Takeoff Table for Shear Walls)**
+
+| Código de Placa | Nivel / Piso | Altura de Nivel (m) | Acero Vertical Principal (Barras y Longitud Total) | Acero Horizontal (Barras y Longitud Total) | Estribos (Cantidad y Longitud Total) | Notas de Cálculo Específicas |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **P-1** | Sótano a 4° Piso | 16.60 (Total) | **12 barras Ø 5/8"** <br> L. Total = **215.04 m** | **180 barras Ø 3/8"** (en 5 niveles) <br> L. Total = **340.20 m** | **190 estribos Ø 3/8"** (en 5 niveles) <br> L. Total = **250.80 m** | Anclaje 0.7m, 1 empalme 0.7m. L.barra=18m. Estribo L=1.32m. H.acero L=1.89m. |
+| **P-2** | Sótano a 4° Piso | 16.60 (Total) | **12 barras Ø 5/8"** <br> L. Total = **215.04 m** | **180 barras Ø 3/8"** (en 5 niveles) <br> L. Total = **340.20 m** | **190 estribos Ø 3/8"** (en 5 niveles) <br> L. Total = **250.80 m** | Ídem a P-1. |
+| **P-2** | Azotea | 2.80 | **8 barras Ø 1/2"** <br> L. Total = **27.60 m** | No especificado en detalle. | **38 estribos Ø 3/8"** <br> L. Total = **40.28 m** | L.barra=3.45m (incl. empalme 0.55m). Estribo L=1.06m. |
+| **P-3** | Sótano a Azotea | 19.40 (Total) | **12 barras Ø 5/8"** <br> L. Total = **255.60 m** | **216 barras Ø 3/8"** (en 6 niveles) <br> L. Total = **408.24 m** | **228 estribos Ø 3/8"** (en 6 niveles) <br> L. Total = **300.96 m** | Anclaje 0.7m, 2 empalmes 0.7m. L.barra=21.3m. Estribo L=1.32m. |
+| **P-4** | Sótano a Azotea | 19.40 (Total) | **12 barras Ø 5/8"** <br> L. Total = **255.60 m** | **216 barras Ø 3/8"** (en 6 niveles) <br> L. Total = **1153.44 m** | **228 estribos Ø 3/8"** (en 6 niveles) <br> L. Total = **300.96 m** | Ídem a P-3, pero H.acero L=5.34m. |
+| **P-5** | Sótano a Azotea | 19.40 (Total) | **20 barras Ø 5/8"** <br> L. Total = **426.00 m** | **432 barras Ø 3/8"** (en 6 niveles) <br> L. Total = **1650.24 m** | **342 estribos Ø 3/8"** (en 6 niveles) <br> L. Total = **522.84 m** | 2 elem. borde L.estribo=1.32m, 1 elem. esquina L.estribo=1.84m. H.acero L=1.84m y 2.09m. |
+| **P-6** | Sótano a Azotea | 19.40 (Total) | **16 barras Ø 5/8"** <br> L. Total = **340.80 m** | **216 barras Ø 3/8"** (en 6 niveles) <br> L. Total = **680.40 m** | **342 estribos Ø 3/8"** (en 6 niveles) <br> L. Total = **428.82 m** | 2 elem. borde L=1.32m, 1 interm. L=1.06m. H.acero L=3.14m. |
+| **P-8** | 1er Piso | 2.90 | **8 barras Ø 5/8"** <br> L. Total = **28.80 m** | **20 barras Ø 3/8"** <br> L. Total = **29.80 m** | **38 estribos Ø 3/8"** <br> L. Total = **40.28 m** | L.barra=3.6m (incl. empalme 0.7m). H.acero L=1.49m. Estribo L=1.06m. |

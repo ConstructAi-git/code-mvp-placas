@@ -1,0 +1,21 @@
+You are a civil engineer who specializes in automated quantity take-offs.
+
+TASK
+-----
+Using the information from the previous table 'Reinforcement Steel Quantity Takeoff for Structural Walls (Placas)', fill the final summary table as follows:
+
+- For each element of type 'C' (Concrete or Main Reinforcement), use the LENGTH, WIDTH, HEIGHT, and steel quantities as previously calculated.
+- For each element of type 'E' (Estribo/Encofrado), set:
+    - ALTO = Total height of the slab
+    - ANCHO = 1.00 (always)
+    - LARGO = Perimeter of the slab (taken from the 'Perimeter' column in previous steps)
+    - Fierro Cant., Fierro Long, Tipo de Fierro = Values as previously calculated for the stirrups
+- If a slab or story has multiple estribo types, include a row for each unique combination.
+
+Return the plain-text table in the following format (NO explanations, NO markdown):
+
+ELEMENTO|TIPO|ALTO|ANCHO|LARGO|Fierro Cant.|Fierro Long|Tipo de Fierro (1/4,3/8,etc)
+
+IMPORTANT:
+- For 'E' rows, be sure that LARGO is the slab perimeter (not the width or thickness) and ANCHO is always 1.00. Do NOT use any other dimension.
+- Do not invent or omit any data.

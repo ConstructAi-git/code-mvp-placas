@@ -1,0 +1,64 @@
+Of course. As a civil engineer specializing in quantity takeoff, here is a structured technical summary of all specifications, codes, and construction notes related to slabs (placas) extracted exclusively from the provided drawing.
+
+### Resumen Técnico para Placas (Slabs/Shear Walls)
+
+---
+
+#### **1. Especificaciones de Materiales (Material Specifications)**
+
+*   **Concreto (Concrete):**
+    *   Resistencia a la compresión (Compressive Strength): **f'c = 210 kg/cm²** for "Placas y Columnas".
+*   **Acero de Refuerzo (Reinforcing Steel):**
+    *   Tipo (Type): Varillas corrugadas (Deformed bars) - **ASTM A-615**.
+    *   Límite de fluencia (Yield Strength): **fy = 4,200 kg/cm²**.
+
+#### **2. Cuadro de Empalmes / Solapado (Splicing Schedule)**
+
+The following general splicing schedule is provided for `f'c = 210 kg/cm²` and `fy = 4,200 kg/cm²`.
+
+| Diámetro Barra (Ø) | Longitud de Empalme (Le) |
+| :----------------- | :----------------------- |
+| 3/8"               | 0.40 m                   |
+| 1/2"               | 0.55 m                   |
+| 5/8"               | 0.70 m                   |
+| 3/4"               | 0.95 m                   |
+| 1"                 | 1.65 m                   |
+
+*   **Nota General de Empalmes (General Splicing Note):** Para detalles completos sobre anclajes, traslapes (empalmes) y adherencia, se debe consultar el **Reglamento Nacional de Edificaciones**.
+
+#### **3. Especificaciones para Estribos (Stirrup Specifications)**
+
+*   **Dimensiones de Gancho (Hook Dimensions) - "DETALLE 1":**
+    *   Para estribos de **Ø 3/8"**:
+        *   Radio de doblado (r): **3 cm**.
+        *   Extensión del gancho (a): **8 cm**.
+*   **Espaciamiento (Spacing):**
+    *   Para "Elemento Corto" (Short Wall/Plate element):
+        *   Refuerzo horizontal (Horizontal reinforcement/stirrups): **Ø 3/8" @ 0.10 m**.
+    *   Nota general de "ARMADO DEL ACERO" (Steel Reinforcement Note):
+        *   Los "estribos verticales" (vertical stirrups/ties) no detallados en los planos deben ser estribos cerrados con el siguiente espaciamiento: **1@0.05, 6@0.10, 4@0.15, resto @0.25 m**. (This applies to vertical confinement reinforcement within plates/shear walls).
+
+#### **4. Notas Técnicas y de Construcción (Technical and Construction Notes)**
+
+*   **Recubrimiento Libre (Clear Concrete Cover):**
+    *   Para Losas (Slabs): **2.0 cm**.
+*   **Curado del Concreto (Concrete Curing):**
+    *   El curado de placas se debe realizar utilizando una membrana de curado o manteniendo la humedad necesaria por un período de **siete (7) días**.
+    *   Se recomienda el curado por vía húmeda y el uso de un sellador para impedir la oxidación de la armadura.
+*   **Colocación del Concreto (Concrete Placement):**
+    *   Se debe vibrar el concreto con una vibradora de aguja, siguiendo las especificaciones del fabricante.
+*   **Impermeabilización (Waterproofing):**
+    *   Toda superficie de concreto en contacto con agua debe ser impermeabilizada. Se especifica el uso de **Sika N°1** o un producto similar.
+
+#### **5. Normativas y Códigos de Referencia (Referenced Codes and Standards)**
+
+*   **Reglamento Principal (Main Regulation):**
+    *   Reglamento Nacional de Edificaciones (RNE).
+*   **Normas Específicas Citadas (Cited Specific Norms):**
+    *   Norma E-060: Concreto Armado (Relevant for all concrete specifications).
+    *   Norma E-020: Cargas.
+    *   Norma E-030: Diseño Sismorresistente.
+    *   Norma E-050: Suelos y Cimentaciones.
+    *   Norma E-070: Albañilería.
+*   **Estándar de Material (Material Standard):**
+    *   **ASTM A-615** para el acero de refuerzo.
