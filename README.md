@@ -11,7 +11,6 @@ drawing set arranged in the expected folders) and uses
 
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.8%2B-blue" />
-  <img src="https://img.shields.io/badge/License-MIT-green" />
   <img src="https://img.shields.io/badge/AI-Gemini_2.5_Multimodal-critical" />
 </p>
 
